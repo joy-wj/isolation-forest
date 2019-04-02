@@ -8,9 +8,6 @@ The goal of this project is to implement the original [Isolation Forest](Isolati
 
 The isolation forest algorithm is original and beautiful in its simplicity; and also seems to work very well, with a few known weaknesses. The academic paper is extremely readable so you should start there.
 
-I have provided some useful code to test and plot the results of your implementation.
-
-**WARNING**: There are sample implementations out there. I will be using [MOSS](https://theory.stanford.edu/~aiken/moss) to compare your programs together and against the known implementations. For example, here are two sample implementations:  [mgckind/iso_forest at github](https://github.com/mgckind/iso_forest/blob/master/iso_forest.py) and [Unsupervised Fraud Detection: Isolation Forest at Kaggle](https://www.kaggle.com/rgaddati/unsupervised-fraud-detection-isolation-forest). You may read these but absolutely no copying. You must learn to implement recursive tree algorithms yourself.
 
 ## Data sets
 
