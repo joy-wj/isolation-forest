@@ -13,9 +13,9 @@ For this project, we'll use three data sets:
 
 * [Kaggle credit card fraud competition data set](https://www.kaggle.com/mlg-ulb/creditcardfraud); download, unzip to get `creditcard.csv`
 
-* Get the `cancer.csv` [dataset](https://github.com/parrt/msds689/blob/master/projects/iforest/savecancer.py)
+* Get the `cancer.csv` dataset: [cancer.csv](https://github.com/joy-wj/isolation-forest/blob/master/cancer.csv)
 
-* Get the `http.csv` [dataset](https://github.com/parrt/msds689/blob/master/projects/iforest/http.zip)
+* Get the `http.csv` dataset: [http.csv](https://github.com/joy-wj/isolation-forest/blob/master/http.csv)
 
 ## Visualization of normal versus anomaly separation
 
