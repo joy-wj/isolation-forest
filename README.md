@@ -6,8 +6,6 @@ The goal of this project is to implement the original [Isolation Forest](Isolati
 1. model what normal looks like and then look for nonnormal observations
 2. focus on the anomalies, which are few and different. This is the interesting and relatively-new approach taken by the authors of isolation forests.
 
-The isolation forest algorithm is original and beautiful in its simplicity; and also seems to work very well, with a few known weaknesses. The academic paper is extremely readable so you should start there.
-
 
 ## Data sets
 
@@ -18,10 +16,6 @@ For this project, we'll use three data sets:
 * Get cancer data into `cancer.csv` by executing [savecancer.csv](https://github.com/parrt/msds689/blob/master/projects/iforest/savecancer.py) that I provide.
 
 * [http.zip](https://github.com/parrt/msds689/blob/master/projects/iforest/http.zip); download, unzip to get `http.csv`.
-
-These files are not that large, but a pure Python solution for isolation forest takes too long on the whole file: 2.5 minutes on `creditcard.csv` and 5 minutes on `http.csv`.  (My hybrid python/C solution takes about two seconds. ha!)
-
-My code assumes the data files are in the same directory as the code.
 
 ## Visualization of normal versus anomaly separation
 
