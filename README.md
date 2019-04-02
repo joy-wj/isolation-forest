@@ -13,13 +13,13 @@ For this project, we'll use three data sets:
 
 * [Kaggle credit card fraud competition data set](https://www.kaggle.com/mlg-ulb/creditcardfraud); download, unzip to get `creditcard.csv`
 
-* Get the cancer dataset: `cancer.csv`[here](https://github.com/parrt/msds689/blob/master/projects/iforest/savecancer.py)
+* Get the `cancer.csv` [dataset](https://github.com/parrt/msds689/blob/master/projects/iforest/savecancer.py)
 
-* Get the http dataset: `http.csv` [here](https://github.com/parrt/msds689/blob/master/projects/iforest/http.zip)
+* Get the `http.csv` [dataset](https://github.com/parrt/msds689/blob/master/projects/iforest/http.zip)
 
 ## Visualization of normal versus anomaly separation
 
-Using [plot_anomalies.py](https://github.com/parrt/msds689/blob/master/projects/iforest/plot_anomalies.py), which I provide for you, you can see the results of the isolation forest trying to detect anomalies. These data sets all have known targets indicating normal versus anomaly, but this information is only used during testing and not during training. In other words, we use this information to discover how well we can separate the distribution of normal versus anomalous observations.  The section provides a number of results, but yours might look different because of the inherent randomness involved in selecting subsets of the data and constructing random trees. (click on the images to enlarge.)
+Using [plot_anomalies.py](https://github.com/joy-wj/isolation-forest/blob/master/plot_anomalies.py), which I provide for you, you can see the results of the isolation forest trying to detect anomalies. These data sets all have known targets indicating normal versus anomaly, but this information is only used during testing and not during training. In other words, we use this information to discover how well we can separate the distribution of normal versus anomalous observations.  The section provides a number of results, but yours might look different because of the inherent randomness involved in selecting subsets of the data and constructing random trees. (click on the images to enlarge.)
 
 <center>
 <table border="0">
@@ -79,7 +79,7 @@ Please use this version of average path length <tt>c()</tt>, not the one in the 
 
 ## Scoring results
 
-Using [score.py](https://github.com/parrt/msds689/blob/master/projects/iforest/score.py), here is a sample run:
+Using [score.py](https://github.com/joy-wj/isolation-forest/blob/master/score.py), here is a sample run:
 
 ```
 Running noise=False improved=False
